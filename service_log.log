@@ -1,73 +1,7 @@
 initializing service script
-measure cycle finished at 2024-04-22 22:36:49.013461
-measure cycle finished at 2024-04-22 22:46:49.017160
-measure cycle finished at 2024-04-22 22:56:49.020871
-measure cycle finished at 2024-04-22 23:06:49.024532
-measure cycle finished at 2024-04-22 23:16:49.028195
-measure cycle finished at 2024-04-22 23:26:49.031848
-measure cycle finished at 2024-04-22 23:36:49.035520
-measure cycle finished at 2024-04-22 23:46:49.039202
-measure cycle finished at 2024-04-22 23:56:49.042875
-measure cycle finished at 2024-04-23 00:06:49.046511
-measure cycle finished at 2024-04-23 00:16:49.050150
-measure cycle finished at 2024-04-23 00:26:49.053801
-measure cycle finished at 2024-04-23 00:36:49.057448
-measure cycle finished at 2024-04-23 00:46:49.061199
-measure cycle finished at 2024-04-23 00:56:49.064837
-measure cycle finished at 2024-04-23 01:06:49.068461
-measure cycle finished at 2024-04-23 01:16:49.072119
-measure cycle finished at 2024-04-23 01:26:49.075766
-measure cycle finished at 2024-04-23 01:36:49.079451
-measure cycle finished at 2024-04-23 01:46:49.083099
-measure cycle finished at 2024-04-23 01:56:49.086750
-measure cycle finished at 2024-04-23 02:06:49.090424
-measure cycle finished at 2024-04-23 02:16:49.094056
-measure cycle finished at 2024-04-23 02:26:49.097690
-measure cycle finished at 2024-04-23 02:36:49.101329
-measure cycle finished at 2024-04-23 02:46:49.104971
-measure cycle finished at 2024-04-23 02:56:49.108614
-measure cycle finished at 2024-04-23 03:06:49.112259
-measure cycle finished at 2024-04-23 03:16:49.115891
-measure cycle finished at 2024-04-23 03:26:49.119554
-measure cycle finished at 2024-04-23 03:36:49.125999
-measure cycle finished at 2024-04-23 03:46:49.129776
-measure cycle finished at 2024-04-23 03:56:49.133417
-measure cycle finished at 2024-04-23 04:06:49.137052
-measure cycle finished at 2024-04-23 04:16:49.140725
-measure cycle finished at 2024-04-23 04:26:49.144375
-measure cycle finished at 2024-04-23 04:36:49.148033
-measure cycle finished at 2024-04-23 04:46:49.151671
-measure cycle finished at 2024-04-23 04:56:49.155303
-measure cycle finished at 2024-04-23 05:06:49.158953
-measure cycle finished at 2024-04-23 05:16:49.162602
-measure cycle finished at 2024-04-23 05:26:49.166257
-measure cycle finished at 2024-04-23 05:36:49.169894
-measure cycle finished at 2024-04-23 05:46:49.173527
-measure cycle finished at 2024-04-23 05:56:49.177177
-measure cycle finished at 2024-04-23 06:06:49.180821
-measure cycle finished at 2024-04-23 06:16:49.184486
-measure cycle finished at 2024-04-23 06:26:49.188139
-measure cycle finished at 2024-04-23 06:36:49.191765
-measure cycle finished at 2024-04-23 06:46:49.195415
-measure cycle finished at 2024-04-23 06:56:49.199059
-measure cycle finished at 2024-04-23 07:06:49.202697
-measure cycle finished at 2024-04-23 07:16:49.206354
-measure cycle finished at 2024-04-23 07:26:49.209987
-measure cycle finished at 2024-04-23 07:36:49.213633
-measure cycle finished at 2024-04-23 07:46:49.217275
-measure cycle finished at 2024-04-23 07:56:49.220901
-measure cycle finished at 2024-04-23 08:06:49.224567
-measure cycle finished at 2024-04-23 08:16:49.228209
-measure cycle finished at 2024-04-23 08:26:49.231839
-measure cycle finished at 2024-04-23 08:36:49.235479
-measure cycle finished at 2024-04-23 08:46:49.239144
-measure cycle finished at 2024-04-23 08:56:49.242778
-measure cycle finished at 2024-04-23 09:06:49.246420
-measure cycle finished at 2024-04-23 09:16:49.250045
-measure cycle finished at 2024-04-23 09:26:49.253677
-measure cycle finished at 2024-04-23 09:36:49.257313
-measure cycle finished at 2024-04-23 09:46:49.260944
+measure cycle finished at 2024-04-23 10:09:27.941086
+measure cycle finished at 2024-04-23 10:09:47.944796
 Traceback (most recent call last):
-  File "/home/pi/Dokumente/BME280.py", line 76, in <module>
-    time.sleep(590)
+  File "/opt/data/BME280.py", line 76, in <module>
+    time.sleep(10)
 KeyboardInterrupt

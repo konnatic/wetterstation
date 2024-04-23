@@ -13,7 +13,7 @@ print("initializing service script")
 bus = SMBus(1)
 bme280 = BME280(i2c_dev=bus)
 
-dataFile = open("/opt/data/weatherData.csv", "a")
+dataFile = None
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(19, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
 GPIO.setup(8, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
@@ -64,8 +64,11 @@ def write_data_to_file():
 	global pressure
 	global humidity
 	global wind_speed
+	global dataFile 
+	dataFile = open("/opt/data/weatherData.csv", "a")
 	
 	dataFile.write("\n"+'{:05.2f},{:05.2f},{:05.2f},{},{},{:05.5f}'.format(temperature, pressure, humidity, datetime.datetime.now(), GPIO.input(19), wind_speed))
+	dataFile.close()
 	#rint("wrote data")	
 	
 while True:
