@@ -67,7 +67,8 @@ def write_data_to_file():
 	global dataFile 
 	dataFile = open("/opt/data/weatherData.csv", "a")
 	
-	dataFile.write("\n"+'{:05.2f},{:05.2f},{:05.2f},{},{},{:05.5f}'.format(temperature, pressure, humidity, datetime.datetime.now(), GPIO.input(19), wind_speed))
+	dataFile.write("\n"+'{:05.2f},{:05.2f},{:05.2f},{},{},{:05.5f}'\n
+	.format(temperature, pressure, humidity, datetime.datetime.now(), GPIO.input(19), wind_speed))
 	dataFile.close()
 	#rint("wrote data")	
 	
